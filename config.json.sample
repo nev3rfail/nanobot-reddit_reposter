@@ -1,0 +1,25 @@
+{
+    "telegram_token": "your bot token",
+    "debug": false,
+    "database": "reddit.sqlite",
+    "database_autocommit": true,
+    "plugins": ["reddit_gatekeeper", "reddit"],
+    "plugin_config": {
+        "reddit_gatekeeper": {
+            "mode": "auto"
+        },
+        "reddit": {
+            "id": "reddit app id",
+            "secret": "reddit app secret",
+            "internal_secret": "secret for encrypting data (see readme)",
+            "redirect_uri": "http://url_to_redirect_user_if_user_registers.example.com/",
+            "pool_ttl": 3600,
+            "god_id": 367906240,
+            "trigger": [
+                "moar",
+                ".",
+                "MOAR"
+            ]
+        }
+    }
+}
