@@ -28,7 +28,7 @@ https://t.me/reddit_reposter_bot -- bot in action
   * run `echo "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())" | python3` to generate encryption secret
   * copy your secret to `internal_secret` field in config
   * put redirect_uri in your config file. It must be valid url with port 60321 (will be configurable in future)
-  * run `python3 ./standalone/reddit_token.py`
+  * run `python3 ./standalone/reddit_token.py --config=reddit.json`
 * Download or clone [nanobot](https://github.com/nev3rfail/telegram-nanobot) and [pyTelegramBotApi fork](https://github.com/nev3rfail/pyTelegramBotApi)
 * Copy directory contents to telegram-nanobot
 * run with `cd telegram-nanobot && python3 ./__init__.py --config=reddit.json`
