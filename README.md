@@ -1,7 +1,9 @@
 # Reddit Reposter
 [nanobot](https://github.com/nev3rfail/telegram-nanobot) plugin which can send posts from reddit to chat.
-Supported features:
-* Ignore people
+
+https://t.me/reddit_reposter_bot -- bot in action
+### Supported features:
+* Ignore users
 * Ignore subreddits
 * Ignore spoilers
 * Ignore NSFW content
@@ -18,7 +20,6 @@ Supported features:
 
 ## Usage:
 * Download or clone this repo
-* Place JSON file with your Google Cloud credentials to nanobot-transation-tools/google-cloud-authdata.json
 * Copy config.json.sample to reddit.json
 * Add bot token to reddit.json
 * Go to [Reddit App Preferences](https://ssl.reddit.com/prefs/apps/) and register new web app
